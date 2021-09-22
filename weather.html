@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>weather application</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="weather.css">
+</head>
+
+<body>
+        <div class="header">
+            <input id="searchInput" type="text" placeholder="search" />
+        </div>
+<h1 id="cityname"></h1>
+        <div class="daycontainer ">
+                <div  id="1"></div>
+                <div id="2"></div>
+                <div id="3"></div>
+                <div id="4"></div>
+                <div id="5"></div>
+           
+        </div>
+        <table class="table table-hover ">
+            <thead>
+              <tr>
+                <th>timing</th>
+                <th>temp</th>
+                <th>cloud</th>
+              </tr>
+            </thead>
+            <tbody id="tbody">
+              
+            </tbody>
+          </table>
+  
+
+</body>
+
+<script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+<script src="weather.js"></script>
+
+</html>
